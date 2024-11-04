@@ -1,0 +1,547 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures body takes full viewport height */
+    background-color: #fff; /* White background */
+}
+
+header {
+    background-color: #003366; /* Dark blue header */
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Align logo and nav to opposite ends */
+    align-items: center;
+    position: sticky;
+}
+
+.logo img {
+    width: 70px; /* Adjust the logo size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Allows main content to grow and push footer to bottom */
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 16px;
+    color: black;
+}
+
+.login-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: justify;
+    text-align: center;
+}
+
+.about-us {
+    text-align: justify;
+    padding: 20px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mku {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Button styling */
+.button-container {
+    margin-top: 20px; /* Space above the button */
+    margin-bottom: 30px;
+    text-align: center; /* Center the button */
+}
+
+button {
+    background-color: #1E90FF; /* Blue button color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4682B4; /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 15px; /* Medium-sized padding for a moderate height */
+    font-size: 14px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: 0; /* Prevents footer from shrinking */
+    position: fixed;
+}
+/* Basic Styling */
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center the icon horizontally */
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+/* Map Icon Button */
+.map-button {
+    background-color: none;
+    align-items: right;
+    border: none;
+    font-size: 24px; /* Larger icon size */
+    cursor: pointer;
+    
+}
+
+/*.map-button:hover {
+    color: #4682B4; /* Darker blue on hover 
+}/*
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    width: 400px;
+}
+
+.close-button {
+    float: right;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: black;
+    margin: 0;
+    font-size: 24px;
+}
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding-top: 80px; /* Offset for fixed header */
+    padding-bottom: 60px; /* Offset for fixed footer */
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropdown-title {
+    font-size: 18px;
+    color: #1E90FF;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: block;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.dropdown-section {
+    padding: 10px;
+}
+
+.dropdown-section h3 {
+    font-size: 16px;
+    color: #003366;
+}
+
+.dropdown-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.dropdown-section ul li {
+    color: #333;
+    padding: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.map-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    width: 400px;
+}
+
+.close-button {
+    float: right;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+/* General Styling */
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Slideshow Styling */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 400px; /* Set height for the slideshow */
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%; /* Full height for background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Fade-in effect */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Info Section */
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #003366;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    color: #1E90FF;
+    margin-right: 8px;
+}
+
+/* Map Container */
+/* Map Container */
+.map-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Adjust iframe size for a medium-sized map */
+.map-container iframe {
+    width: 400px; /* Medium width */
+    height: 300px; /* Medium height */
+    border: 0; /* Remove border */
+}
+/* Centering the form container */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form button:hover {
+    background-color: #4682B4;
+}
+
+/* Styling for contact-info and map */
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+

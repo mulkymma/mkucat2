@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mount Kenya University School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome CDN -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/mku logo.png" alt="Mount Kenya University">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+         <!-- Contact Form Section -->
+         <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Mombasa Campus</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Address: MKU Towers, Nkrumah Rd, Mombasa</p>
+            <p><i class="fas fa-phone-alt"></i> Telephone: +254 709 153 000</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:mombasa.campus@mku.ac.ke">mombasa.campus@mku.ac.ke</a></p>
+            
+            <!-- Embedded Google Map -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3999.867104673305!2d39.68970571399475!3d-4.073480399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0608a5111111%3A0x768096281443850!2sMount%20Kenya%20University%20Mombasa%20Campus!5e0!3m2!1sen!2ske!4v1693557635866!5m2!1sen!2ske"
+                        allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mount Kenya University Mombasa Campus</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
